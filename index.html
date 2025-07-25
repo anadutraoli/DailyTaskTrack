@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <title>TaskTrack</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>DailyTaskTrack</h1>
+        <p>O lugar certo para organizar os seus dias!</p>
+      </header>
+      <main>
+        <section class="addTask">
+          <input
+            type="text"
+            name="addTask"
+            id="addTaskInput"
+            placeholder="adicione aqui a sua tarefa..."
+          />
+          <button id="addTaskBtn">ADCIONAR</button>
+        </section>
+        <section class="filterTask">
+          <select name="filterSelect" id="filterSelect">
+            <option value="todas">Todas</option>
+            <option value="aFazer">A fazer</option>
+            <option value="concluidas">Concluídas</option>
+          </select>
+        </section>
+      </main>
+    </div>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
