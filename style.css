@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dad7cd;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+input,
+button {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 900px;
+  max-height: 900px;
+  padding: 4rem;
+  background-color: #a3b18a;
+  border-radius: 50px;
+}
+
+header {
+  text-align: center;
+  color: #344e41;
+  padding-bottom: 40px;
+}
+
+main {
+  text-align: center;
+}
+
+.addTask {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.addTask input,
+.addTask button {
+  padding: 10px;
+  outline: none;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+#addTaskInput {
+  border: 1px solid #344e41;
+  width: 100%;
+}
+
+.addTask button {
+  border: none;
+  background-color: #344e41;
+  color: #dad7cd;
+  cursor: pointer;
+}
+
+.addTask button:hover {
+  background-color: #31473c;
+}
+
+.filterTask {
+  padding-bottom: 20px;
+}
+
+#filterSelect {
+  border: none;
+  outline: none;
+  padding: 6px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
