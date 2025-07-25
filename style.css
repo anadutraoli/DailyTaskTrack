@@ -84,3 +84,56 @@ main {
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
 }
+
+#tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #000;
+  padding: 10px 0px;
+  background-color: #869867;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.divTask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.taskConcluida span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task input[type="checkbox"] {
+  accent-color: #31473c;
+  width: 15px;
+  height: 15px;
+}
+
+.deleteBtn,
+.editBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.deleteBtn i, .editBtn i {
+  font-size: 1rem;
+} 
+
+.deleteBtn:hover, .editBtn:hover {
+  background-color: #8da564;
+}
